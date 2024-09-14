@@ -26,13 +26,13 @@ z-index: 0;
     position: sticky;
     top: 30px;
     z-index: 1;
-    /* width: 50%; */
+    width: 50%;
 }
 #four
 {
   color: brown;
   background-color: yellow;
-  /* position: sticky; */
+  position: sticky;
   width: 70%;
 }
 #five
