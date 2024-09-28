@@ -23,7 +23,7 @@ z-index: 0;
 {
     color: purple;
     background-color: aqua;
-    position: sticky;
+    position: relative;
     top: 30px;
     z-index: 1;
     width: 50%;
@@ -48,7 +48,7 @@ z-index: 0;
 {
   color: beige;
   background-color: black;
-  position: sticky;
+  position: absolute;
   top: 40px;
   z-index: -3;
 }
