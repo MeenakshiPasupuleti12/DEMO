@@ -14,7 +14,7 @@ namespace constructor
         double studentfee;
         public student()
         {
-
+           // It is a empty constructor
         }
         public student(int sid,string sName)
         {
