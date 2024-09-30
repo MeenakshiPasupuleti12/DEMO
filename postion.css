@@ -1,6 +1,6 @@
 #one
 {
-color: aqua;
+color: red;
 position: sticky; 
 top: 10px;
 
@@ -10,7 +10,7 @@ z-index: 0;
 }
 #two
 {
-    color: blue;
+    color: purple;
     background-color:grey;
     position: sticky;
     top: 10px;
@@ -21,7 +21,7 @@ z-index: 0;
 }
 #three
 {
-    color: purple;
+    color: blue;
     background-color: aqua;
     position: relative;
     top: 30px;
@@ -31,7 +31,7 @@ z-index: 0;
 }
 #four
 {
-  color: brown;
+  color: yellow;
   background-color: yellow;
   position: sticky;
   width: 80%;
