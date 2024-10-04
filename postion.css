@@ -10,7 +10,7 @@ z-index: 0;
 }
 #two
 {
-    color: purple;
+    color: yellow;
     background-color:light-blue;
     position: sticky;
     top: 10px;
@@ -21,7 +21,7 @@ z-index: 0;
 }
 #three
 {
-    color: blue;
+    color: aqua;
     background-color: aqua;
     position: absolute;
     top: 30px;
@@ -31,7 +31,7 @@ z-index: 0;
 }
 #four
 {
-  color: yellow;
+  color: green;
   background-color: yellow;
   position: sticky;
   width: 80%;
