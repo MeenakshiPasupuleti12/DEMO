@@ -1,10 +1,10 @@
 #one
 {
-color: yellow;
+color: red;
 position: relative; 
 top: 20px;
 
-right:6px ;
+right:12px ;
 z-index: -2;
 z-index: 0;
 }
@@ -25,7 +25,7 @@ z-index: 0;
     background-color: aqua;
     position: absolute;
     top: 30px;
-    z-index: 1;
+    z-index: -1;
     width: 50%;
     
 }
