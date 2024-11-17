@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+
+using System.
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,7 +14,7 @@ namespace constructor
         double studentfee;
         public student()
         {
-
+           // It is a empty constructor
         }
         public student(int sid,string sName)
         {
