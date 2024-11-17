@@ -1,0 +1,12 @@
+D:\.netc#\ClgApp\ClgApp\bin\Debug\ClgApp.exe.config
+D:\.netc#\ClgApp\ClgApp\bin\Debug\ClgApp.exe
+D:\.netc#\ClgApp\ClgApp\bin\Debug\ClgApp.pdb
+D:\.netc#\ClgApp\ClgApp\bin\Debug\EntityFramework.dll
+D:\.netc#\ClgApp\ClgApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\.netc#\ClgApp\ClgApp\bin\Debug\EntityFramework.xml
+D:\.netc#\ClgApp\ClgApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\.netc#\ClgApp\ClgApp\obj\Debug\ClgApp.csproj.AssemblyReference.cache
+D:\.netc#\ClgApp\ClgApp\obj\Debug\ClgApp.csproj.CoreCompileInputs.cache
+D:\.netc#\ClgApp\ClgApp\obj\Debug\ClgApp.csproj.Up2Date
+D:\.netc#\ClgApp\ClgApp\obj\Debug\ClgApp.exe
+D:\.netc#\ClgApp\ClgApp\obj\Debug\ClgApp.pdb
