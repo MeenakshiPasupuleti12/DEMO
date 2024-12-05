@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("abstDemo")]
+[assembly: AssemblyTitle("ExpHandle")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("abstDemo")]
+[assembly: AssemblyProduct("ExpHandle")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("26a11f8e-3d28-4f3d-bace-3ac7d0587dc4")]
+[assembly: Guid("6bacbb60-d19a-4597-89d0-d41ea595f816")]
 
 // Version information for an assembly consists of the following four values:
 //

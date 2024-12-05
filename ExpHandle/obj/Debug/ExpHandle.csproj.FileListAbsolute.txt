@@ -1,0 +1,7 @@
+D:\.netc#\ExpHandle\bin\Debug\ExpHandle.exe.config
+D:\.netc#\ExpHandle\bin\Debug\ExpHandle.exe
+D:\.netc#\ExpHandle\bin\Debug\ExpHandle.pdb
+D:\.netc#\ExpHandle\obj\Debug\ExpHandle.csproj.AssemblyReference.cache
+D:\.netc#\ExpHandle\obj\Debug\ExpHandle.csproj.CoreCompileInputs.cache
+D:\.netc#\ExpHandle\obj\Debug\ExpHandle.exe
+D:\.netc#\ExpHandle\obj\Debug\ExpHandle.pdb
