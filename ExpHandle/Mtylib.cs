@@ -12,7 +12,7 @@ namespace ExpHandle
         public static void showMessage(Object message)
         {
             string msg = message.ToString();
-            string[] data = msg.Split();
+            string[] data = msg.Split()
             foreach (string s in data)
             {
                 Console.WriteLine(s+"   ");
