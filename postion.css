@@ -1,6 +1,6 @@
 #one
 {
-color: red;
+color: black;
 position: relative; 
 top: 20px;
 
@@ -21,8 +21,8 @@ z-index: -1;
 }
 #three
 {
-    color: aqua;
-    background-color: aqua;
+    color: blue;
+    background-color: light-bkue;
     position: absolute;
     top: 30px;
     z-index: -1;
