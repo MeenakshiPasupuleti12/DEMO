@@ -1,0 +1,12 @@
+D:\.netc#\EF_Labs_06\EF_Labs_06\bin\Debug\EF_Labs_06.exe.config
+D:\.netc#\EF_Labs_06\EF_Labs_06\bin\Debug\EF_Labs_06.exe
+D:\.netc#\EF_Labs_06\EF_Labs_06\bin\Debug\EF_Labs_06.pdb
+D:\.netc#\EF_Labs_06\EF_Labs_06\bin\Debug\EntityFramework.dll
+D:\.netc#\EF_Labs_06\EF_Labs_06\bin\Debug\EntityFramework.SqlServer.dll
+D:\.netc#\EF_Labs_06\EF_Labs_06\bin\Debug\EntityFramework.xml
+D:\.netc#\EF_Labs_06\EF_Labs_06\bin\Debug\EntityFramework.SqlServer.xml
+D:\.netc#\EF_Labs_06\EF_Labs_06\obj\Debug\EF_Labs_06.csproj.AssemblyReference.cache
+D:\.netc#\EF_Labs_06\EF_Labs_06\obj\Debug\EF_Labs_06.csproj.CoreCompileInputs.cache
+D:\.netc#\EF_Labs_06\EF_Labs_06\obj\Debug\EF_Labs_06.csproj.Up2Date
+D:\.netc#\EF_Labs_06\EF_Labs_06\obj\Debug\EF_Labs_06.exe
+D:\.netc#\EF_Labs_06\EF_Labs_06\obj\Debug\EF_Labs_06.pdb
