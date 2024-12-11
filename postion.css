@@ -12,7 +12,7 @@ z-index: 10;
     color: red;
      background-color: pink;
     position: sticky;
-    top: 10px;
+    top: 20px;
     bottom: 10px;
     z-index:-1;
    width:25%; 
