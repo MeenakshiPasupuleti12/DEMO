@@ -1,0 +1,12 @@
+D:\.netc#\Bigbasket\Bigbasket\bin\Debug\Bigbasket.exe.config
+D:\.netc#\Bigbasket\Bigbasket\bin\Debug\Bigbasket.exe
+D:\.netc#\Bigbasket\Bigbasket\bin\Debug\Bigbasket.pdb
+D:\.netc#\Bigbasket\Bigbasket\bin\Debug\EntityFramework.dll
+D:\.netc#\Bigbasket\Bigbasket\bin\Debug\EntityFramework.SqlServer.dll
+D:\.netc#\Bigbasket\Bigbasket\bin\Debug\EntityFramework.xml
+D:\.netc#\Bigbasket\Bigbasket\bin\Debug\EntityFramework.SqlServer.xml
+D:\.netc#\Bigbasket\Bigbasket\obj\Debug\Bigbasket.csproj.AssemblyReference.cache
+D:\.netc#\Bigbasket\Bigbasket\obj\Debug\Bigbasket.csproj.CoreCompileInputs.cache
+D:\.netc#\Bigbasket\Bigbasket\obj\Debug\Bigbasket.csproj.Up2Date
+D:\.netc#\Bigbasket\Bigbasket\obj\Debug\Bigbasket.exe
+D:\.netc#\Bigbasket\Bigbasket\obj\Debug\Bigbasket.pdb
