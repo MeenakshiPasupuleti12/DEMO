@@ -1,0 +1,7 @@
+D:\.netc#\Pinky\bin\Debug\Pinky.exe.config
+D:\.netc#\Pinky\bin\Debug\Pinky.exe
+D:\.netc#\Pinky\bin\Debug\Pinky.pdb
+D:\.netc#\Pinky\obj\Debug\Pinky.csproj.AssemblyReference.cache
+D:\.netc#\Pinky\obj\Debug\Pinky.csproj.CoreCompileInputs.cache
+D:\.netc#\Pinky\obj\Debug\Pinky.exe
+D:\.netc#\Pinky\obj\Debug\Pinky.pdb

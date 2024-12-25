@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinky", "Pinky.csproj", "{E765945F-336E-4FC4-BB32-A1F7326AF14E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mohan", "..\mohan\mohan.csproj", "{7CED0FAB-2BE4-4144-94F9-BA5BA5A24138}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E765945F-336E-4FC4-BB32-A1F7326AF14E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E765945F-336E-4FC4-BB32-A1F7326AF14E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E765945F-336E-4FC4-BB32-A1F7326AF14E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E765945F-336E-4FC4-BB32-A1F7326AF14E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CED0FAB-2BE4-4144-94F9-BA5BA5A24138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CED0FAB-2BE4-4144-94F9-BA5BA5A24138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CED0FAB-2BE4-4144-94F9-BA5BA5A24138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CED0FAB-2BE4-4144-94F9-BA5BA5A24138}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {122C8FAB-63CC-43A6-BEC3-23FAF37CF946}
+	EndGlobalSection
+EndGlobal
