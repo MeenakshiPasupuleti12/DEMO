@@ -1,0 +1,143 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Show All Products</title>
+    <script src="~/Scripts/jquery-3.7.0.js"></script>
+</head>
+<body>
+    <h1>List of Products</h1>
+    <div>
+        <form id="frmProduct">
+            <table>
+                <tr>
+                    <th>Product Id</th>
+                    <td>
+                        <input type="text"
+                               id="ProductId"
+                               name="ProductId"
+                               value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <td>
+                        <input type="text"
+                               id="ProductName"
+                               name="ProductName"
+                               value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Quantity</th>
+                    <td>
+                        <input type="text"
+                               id="Quantity"
+                               name="Quantity"
+                               value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>Price</th>
+                    <td>
+                        <input type="text"
+                               id="Price"
+                               name="Price"
+                               value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button"
+                               value="Clear" />
+                    </td>
+                    <td>
+                        <input type="button"
+                               value="Add Product"
+                               onclick="SaveProduct()" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+
+
+    <div>
+        <table id="tblProduct">
+            <tr>
+                <th>Product Id</th>
+                <th> Name </th>
+                <th>Quantity </th>
+                <th>Price</th>
+            </tr>
+
+        </table>
+    </div>
+    <script type="text/javascript">
+        $("input[type=text][name=ProductId]").focus();
+        $.get('/Product/GetProductsData', null, DisplayData);
+
+        function DisplayData(productsdata) {
+             console.log(productsdata);
+            //console.log('number of products ' + productsdata.length);
+            //console.log(productsdata[0]);
+
+            var t = $('#tblProduct');
+            for (i = 0; i < productsdata.length; i++)
+            {
+               // productsdata[i]
+
+                var nrow = '<tr><td>' + productsdata[i].ProductId +
+                    '</td><td>' + productsdata[i].ProductName +
+                    '</td><td>' + productsdata[i].Quantity +
+                    '</td><td>' + productsdata[i].Price +
+                    '</td> <td><a>Edit</a> </td> <td><a>Delete</a></td> </tr>'
+                t.append(nrow);
+            }
+
+
+        }
+
+        function SaveProduct()
+        {
+            // raise request to AddProduct action with input data
+            console.log('send new product data to backend action ');
+            // collect input data
+            var productId = $("input[type=text][name=ProductId]").val();
+            console.log(productId);
+
+
+
+           var newproductdata = $('#frmProduct').serialize();
+           console.log(newproductdata);
+           $.post('/Product/AddProduct', newproductdata, AddProductToTable);
+        }
+
+        function AddProductToTable(product)
+        {
+            var t = $('#tblProduct');
+
+
+                var nrow = '<tr><td>' + product.ProductId +
+                    '</td><td>' + product.ProductName +
+                    '</td><td>' + product.Quantity +
+                    '</td><td>' + product.Price +
+                    '</td> <td><a>Edit</a> </td> <td><a>Delete</a></td> </tr>'
+                t.append(nrow);
+           /* $("input[type=text][name=ProductId]").val('');
+            $("input[type=text][name=ProductName]").val('');
+            $("input[type=text][name=Quantity]").val('');
+            $("input[type=text][name=Price]").val(''); */
+
+            $("input[type=text]").val('');
+            $("input[type=text][name=ProductId]").focus();
+        }
+    </script>
+</body>
+</html>
