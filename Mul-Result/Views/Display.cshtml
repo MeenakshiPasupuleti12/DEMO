@@ -1,0 +1,27 @@
+﻿@using  Mul_Result.Models
+@model List<Product>
+@{
+    ViewBag.Title = "Display";
+}
+
+<h2>Display</h2>
+<table>
+    <tr>
+        <th>Product Name</th>
+        <th>Name</th>
+        <th>Quality</th>
+        <th>Price</th>
+    </tr>
+    @{
+        foreach (Product p in Model)
+        {
+            <tr>
+                <td>@p.ProductId</td>
+                <td>@p.ProductName</td>
+                <td>@p.Quantity</td>
+                <td>@p.Price</td>
+            </tr>
+        }
+    }
+</table>
+   

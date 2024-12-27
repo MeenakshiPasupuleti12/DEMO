@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.netc#\\Mul-Result\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{188F32E5-6958-4A42-B775-FDE71873D21D}|Mul-Result.csproj|d:\\.netc#\\mul-result\\views\\product\\getproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{188F32E5-6958-4A42-B775-FDE71873D21D}|Mul-Result.csproj|solutionrelative:views\\product\\getproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{188F32E5-6958-4A42-B775-FDE71873D21D}|Mul-Result.csproj|d:\\.netc#\\mul-result\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{188F32E5-6958-4A42-B775-FDE71873D21D}|Mul-Result.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{188F32E5-6958-4A42-B775-FDE71873D21D}|Mul-Result.csproj|d:\\.netc#\\mul-result\\views\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{188F32E5-6958-4A42-B775-FDE71873D21D}|Mul-Result.csproj|solutionrelative:views\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{188F32E5-6958-4A42-B775-FDE71873D21D}|Mul-Result.csproj|D:\\.netc#\\Mul-Result\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{188F32E5-6958-4A42-B775-FDE71873D21D}|Mul-Result.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{188F32E5-6958-4A42-B775-FDE71873D21D}|Mul-Result.csproj|d:\\.netc#\\mul-result\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{188F32E5-6958-4A42-B775-FDE71873D21D}|Mul-Result.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{188F32E5-6958-4A42-B775-FDE71873D21D}|Mul-Result.csproj|D:\\.netc#\\Mul-Result\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{188F32E5-6958-4A42-B775-FDE71873D21D}|Mul-Result.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{188F32E5-6958-4A42-B775-FDE71873D21D}|Mul-Result.csproj|D:\\.netc#\\Mul-Result\\dal\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{188F32E5-6958-4A42-B775-FDE71873D21D}|Mul-Result.csproj|solutionrelative:dal\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetProducts.cshtml",
+              "DocumentMoniker": "D:\\.netc#\\Mul-Result\\Views\\Product\\GetProducts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\GetProducts.cshtml",
+              "ToolTip": "D:\\.netc#\\Mul-Result\\Views\\Product\\GetProducts.cshtml",
+              "RelativeToolTip": "Views\\Product\\GetProducts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T06:46:01.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.netc#\\Mul-Result\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.netc#\\Mul-Result\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T06:37:58.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\.netc#\\Mul-Result\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\.netc#\\Mul-Result\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T06:25:08.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\.netc#\\Mul-Result\\Views\\Display.cshtml",
+              "RelativeDocumentMoniker": "Views\\Display.cshtml",
+              "ToolTip": "D:\\.netc#\\Mul-Result\\Views\\Display.cshtml",
+              "RelativeToolTip": "Views\\Display.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T17:21:52.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\.netc#\\Mul-Result\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\.netc#\\Mul-Result\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-26T17:14:41.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductContext.cs",
+              "DocumentMoniker": "D:\\.netc#\\Mul-Result\\Dal\\ProductContext.cs",
+              "RelativeDocumentMoniker": "Dal\\ProductContext.cs",
+              "ToolTip": "D:\\.netc#\\Mul-Result\\Dal\\ProductContext.cs",
+              "RelativeToolTip": "Dal\\ProductContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:56:18.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\.netc#\\Mul-Result\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\.netc#\\Mul-Result\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:54:01.231Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
