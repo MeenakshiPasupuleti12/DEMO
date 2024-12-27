@@ -21,6 +21,8 @@ namespace Mul_Result.Models
 
         [Required]
         public int Price { get; set; }
+        [Required]
+        public int salary { get; set; }
 
     }
 }
