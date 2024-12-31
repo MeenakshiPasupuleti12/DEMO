@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.netc#\\Surya\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51CE7764-1262-4AAB-8B5D-CF5FA362BEB6}|Surya.csproj|d:\\.netc#\\surya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CE7764-1262-4AAB-8B5D-CF5FA362BEB6}|Surya.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CE7764-1262-4AAB-8B5D-CF5FA362BEB6}|Surya.csproj|D:\\.netc#\\Surya\\mylib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CE7764-1262-4AAB-8B5D-CF5FA362BEB6}|Surya.csproj|solutionrelative:mylib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mylib.cs",
+              "DocumentMoniker": "D:\\.netc#\\Surya\\Mylib.cs",
+              "RelativeDocumentMoniker": "Mylib.cs",
+              "ToolTip": "D:\\.netc#\\Surya\\Mylib.cs",
+              "RelativeToolTip": "Mylib.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T09:01:05.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.netc#\\Surya\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\.netc#\\Surya\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwB0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:04:22.314Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

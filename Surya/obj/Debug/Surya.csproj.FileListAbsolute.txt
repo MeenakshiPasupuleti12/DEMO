@@ -1,0 +1,7 @@
+D:\.netc#\Surya\bin\Debug\Surya.exe.config
+D:\.netc#\Surya\bin\Debug\Surya.exe
+D:\.netc#\Surya\bin\Debug\Surya.pdb
+D:\.netc#\Surya\obj\Debug\Surya.csproj.AssemblyReference.cache
+D:\.netc#\Surya\obj\Debug\Surya.csproj.CoreCompileInputs.cache
+D:\.netc#\Surya\obj\Debug\Surya.exe
+D:\.netc#\Surya\obj\Debug\Surya.pdb
