@@ -26,7 +26,7 @@ internal class Program
         }
         IDictionary<int,string> id = students;
         Console.WriteLine("Count" + id.Count);
-       id.Add(new KeyValuePair<int, string>(9007, "maheen"));
+      // id.Add(new KeyValuePair<int, string>(9007, "maheen"));
         //Console.WriteLine(id.Count);
         id.Add(9008, "Meena");
         Console.WriteLine("Count"+id.Count);
