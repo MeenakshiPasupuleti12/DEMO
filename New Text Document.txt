@@ -1,1 +1,45 @@
-MEENAKSHI
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        Dictionary<int, string> students = new Dictionary<int, string>();
+        Console.WriteLine("count : " + students.Count);
+        students.Add(9001, "john");
+        students.Add(9002, "miller");
+        students.Add(9003, "kumar");
+        students.Add(9004, "kiran");
+        students.Add(9005, "hari");
+        students.Add(9006, "hari");
+        foreach (var k in students.Keys)
+        {
+            Console.WriteLine(k + "    " + students[k]);
+        }
+        Console.WriteLine("count : " + students.Count);
+
+        Console.WriteLine(students[9001]);
+
+        IEnumerable<KeyValuePair<int, string>> ie = students;
+        IEnumerator<KeyValuePair<int,string>> ien= ie.GetEnumerator();
+        while (ien.MoveNext())
+        {
+            Console.WriteLine(ien.Current.Key + "" + ien.Current.Value);
+        }
+        IDictionary<int,string> id = students;
+        Console.WriteLine("Count" + id.Count);
+       // id.Add(new KeyValuePair<int, string>(9007, "maheen"));
+        //Console.WriteLine(id.Count);
+        id.Add(9008, "Meena");
+        Console.WriteLine("Count"+id.Count);
+
+        //using ICollection
+        ICollection<KeyValuePair<int, string>> ic = students;
+        Console.WriteLine("Using ic"+ic.Count);
+        ic.Add(new KeyValuePair<int, string>(9009,"siri"));
+        Console.WriteLine("Count after ic" + ic.Count);
+        foreach (var k in students.Keys)
+        {
+            Console.WriteLine(k + "    " + students[k]);
+        }
+
+    }
+}
