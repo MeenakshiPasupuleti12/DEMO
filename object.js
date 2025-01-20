@@ -1,5 +1,5 @@
 
-const student = {
+let student = {
     name : "Meenakshi",
     class : "B.TEC",
     sec:"cse-A",
