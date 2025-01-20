@@ -1,5 +1,5 @@
 
-let student = {
+var student = {
     name : "Meenakshi",
     class : "B.TEC",
     sec:"cse-A",
