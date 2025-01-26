@@ -16,7 +16,7 @@ namespace evenorodd
             {
                 Console.WriteLine(number + "Is a postive number");
             }
-            else if (number == 0)
+            else if (number = 0)
             {
                 Console.WriteLine(number + "neutral number");
             }
