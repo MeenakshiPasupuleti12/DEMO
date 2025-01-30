@@ -14,7 +14,7 @@ console.log(student.subjects[0])
 student.feedback="Riet is a right choice"
 student.year = 2020
 console.log(student.name)
-console.log(student
+console.log(student)
 
 
 
