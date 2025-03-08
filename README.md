@@ -4,3 +4,4 @@ for my learning purpose
 var a {
 console.log("a");
 }
+var a 
