@@ -4,6 +4,7 @@ const student = {
     class : "B.TEC",
     sec:"cse-A",
     phone : 6797554433,
+    year:4th
 }
 
 
