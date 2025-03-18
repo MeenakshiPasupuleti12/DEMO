@@ -8,7 +8,7 @@ internal class Program
         students.Add(9002, "miller");
         students.Add(9003, "kumar");
         students.Add(9004, "kiran");
-        students.Add(9005, "hari")
+        students.Add(9005, "hari");
         students.Add(9006, "hari");
         foreach (var k in students.Keys)
         {
