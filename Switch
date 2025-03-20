@@ -2,7 +2,7 @@ var caseValue =  int;
 
 switch (caseValue) {
   case true:
-    console.log("true case is executed")
+    console.log("true case is executed");
     break;
 
   case false:
