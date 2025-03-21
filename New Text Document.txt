@@ -16,7 +16,7 @@ internal class Program
         }
         Console.WriteLine("count : " + students.Count);
 
-        Console.WriteLine(students[9001])
+        Console.WriteLine(students[9001]);
 
         IEnumerable<KeyValuePair<int, string>> ie = students;
         IEnumerator<KeyValuePair<int,string>> ien= ie.GetEnumerator();
