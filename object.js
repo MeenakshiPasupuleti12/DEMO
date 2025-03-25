@@ -1,4 +1,4 @@
-
+ 
 const student = {
     name : "Meenakshi",
     class : "B.TEC",
