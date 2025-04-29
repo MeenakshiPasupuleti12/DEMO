@@ -4,7 +4,7 @@ marks = 85
 Python Notes 24
   elif marks >= 75:
  print("Grade: B")
-elif marks >= 50:
+  elif marks >= 50:
  print("Grade: C")
 else:
  print("Fail")
