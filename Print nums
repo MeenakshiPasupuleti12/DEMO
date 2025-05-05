@@ -1,0 +1,26 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int rows = 3;
+
+        for (int i = 0; i < rows; i++)
+        {
+            // Print spaces
+            for (int s = 0; s < i * 2; s++)
+            {
+                Console.Write(" ");
+            }
+
+            // Print numbers
+            for (int j = i + 1; j <= 5 - i; j++)
+            {
+                Console.Write(j);
+            }
+
+            Console.WriteLine();
+        }
+    }
+}
