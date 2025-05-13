@@ -1,0 +1,24 @@
+using System;
+using System.Text.RegularExpressions;
+
+class Program
+{
+    static bool IsPalindrome(string input)
+    {
+        // Remove non-alphanumeric characters and convert to lowercase
+        string cleaned = Regex.Replace(input, "[^a-zA-Z0-9]", "").ToLower();
+
+        // Check if cleaned string is equal to its reverse
+        char[] charArray = cleaned.ToCharArray();
+        Array.Reverse(charArray);
+        string reversed = new string(charArray);
+
+        return cleaned == reversed;
+    }
+
+    static void Main()
+    {
+        string testStr = "A man, a plan, a canal: Panama";
+        Console.WriteLine(IsPalindrome(testStr));  // Output: True
+    }
+}
