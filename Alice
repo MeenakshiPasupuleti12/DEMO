@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Ask the user for their name
+        Console.Write("Enter your name: ");
+        string name = Console.ReadLine();
+
+        // Create a greeting message
+        string greeting = $"Hello, {name}! Welcome to the world of programming.";
+
+        // Print the greeting
+        Console.WriteLine(greeting);
+    }
+}
