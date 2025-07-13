@@ -1,0 +1,13 @@
+using System;
+
+class DayAfterOneYear
+{
+    static void Main()
+    {
+        DateTime today = DateTime.Today;
+        DateTime nextYear = today.AddYears(1);
+
+        Console.WriteLine("Today: " + today.ToString("dddd, dd MMMM yyyy"));
+        Console.WriteLine("Same day next year: " + nextYear.ToString("dddd, dd MMMM yyyy"));
+    }
+}
