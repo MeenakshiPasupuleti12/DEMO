@@ -1,0 +1,24 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Date of interview
+        DateTime interviewDate = new DateTime(2025, 5, 23);
+
+        // Today's date
+        DateTime today = DateTime.Today;
+
+        // Calculate the difference
+        TimeSpan diff = today - interviewDate;
+        int totalDays = (int)diff.TotalDays;
+        int weeks = totalDays / 7;
+        int days = totalDays % 7;
+
+        // Display result with your message
+        Console.WriteLine($"I completed my interview at Cognizant on {interviewDate:dd MMM yyyy}.");
+        Console.WriteLine($"It’s been {weeks} weeks and {days} days since then.");
+        Console.WriteLine("Even after completing 6 weeks, I got rejected.");
+    }
+}
