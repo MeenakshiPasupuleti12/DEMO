@@ -1,0 +1,38 @@
+using System;
+
+namespace DayFinderApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("=== Day Finder: Future Date Calculator ===\n");
+
+            try
+            {
+                Console.Write("Enter the number of years from today: ");
+                string input = Console.ReadLine();
+
+                if (int.TryParse(input, out int years))
+                {
+                    DateTime today = DateTime.Today;
+                    DateTime futureDate = today.AddYears(years);
+
+                    Console.WriteLine($"\nToday's Date       : {today:dddd, dd MMMM yyyy}");
+                    Console.WriteLine($"Future Date (+{years} years): {futureDate:dddd, dd MMMM yyyy}");
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input. Please enter a valid number of years.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey();
+        }
+    }
+}
