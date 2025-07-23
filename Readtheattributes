@@ -1,0 +1,48 @@
+public class ReadAttributes
+{
+    [Autodesk.AutoCAD.Runtime.CommandMethod("ReadBlockAttributes")]
+    public void ReadBlockAttributes()
+    {
+        Autodesk.AutoCAD.ApplicationServices.Document doc = Autodesk.AutoCAD.ApplicationServices.Application.DocumentManager.MdiActiveDocument;
+        Autodesk.AutoCAD.DatabaseServices.Database db = doc.Database;
+        Autodesk.AutoCAD.EditorInput.Editor ed = doc.Editor;
+
+        using (Autodesk.AutoCAD.DatabaseServices.Transaction trans = db.TransactionManager.StartTransaction())
+        {
+            Autodesk.AutoCAD.DatabaseServices.BlockTable bt = 
+                (Autodesk.AutoCAD.DatabaseServices.BlockTable)trans.GetObject(db.BlockTableId, Autodesk.AutoCAD.DatabaseServices.OpenMode.ForRead);
+
+            Autodesk.AutoCAD.DatabaseServices.BlockTableRecord ms = 
+                (Autodesk.AutoCAD.DatabaseServices.BlockTableRecord)trans.GetObject(bt[Autodesk.AutoCAD.DatabaseServices.BlockTableRecord.ModelSpace], 
+                Autodesk.AutoCAD.DatabaseServices.OpenMode.ForRead);
+
+            foreach (Autodesk.AutoCAD.DatabaseServices.ObjectId objId in ms)
+            {
+                Autodesk.AutoCAD.DatabaseServices.Entity ent = 
+                    (Autodesk.AutoCAD.DatabaseServices.Entity)trans.GetObject(objId, Autodesk.AutoCAD.DatabaseServices.OpenMode.ForRead);
+
+                if (ent is Autodesk.AutoCAD.DatabaseServices.BlockReference blockRef)
+                {
+                    if (blockRef.AttributeCollection.Count > 0)
+                    {
+                        ed.WriteMessage($"\nBlock: {blockRef.Name}");
+
+                        foreach (Autodesk.AutoCAD.DatabaseServices.ObjectId attId in blockRef.AttributeCollection)
+                        {
+                            Autodesk.AutoCAD.DatabaseServices.AttributeReference attRef = 
+                                trans.GetObject(attId, Autodesk.AutoCAD.DatabaseServices.OpenMode.ForRead) 
+                                as Autodesk.AutoCAD.DatabaseServices.AttributeReference;
+
+                            if (attRef != null)
+                            {
+                                ed.WriteMessage($"\n - Tag: {attRef.Tag}, Value: {attRef.TextString}");
+                            }
+                        }
+                    }
+                }
+            }
+
+            trans.Commit();
+        }
+    }
+}
