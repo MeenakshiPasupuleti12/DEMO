@@ -1,4 +1,4 @@
-public class ReadAttributes
+ public class ReadAttributes
 {
     [Autodesk.AutoCAD.Runtime.CommandMethod("ReadBlockAttributes")]
     public void ReadBlockAttributes()
