@@ -1,4 +1,4 @@
-  def first_non_repeating_char(s):
+def first_non_repeating_char(s):
     char_count = {}
 
     # Count occurrences of each character
