@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        / l/ Date of interview
+        / / Date of interview
         DateTime interviewDate = new DateTime(2025, 5, 23);
 
         // Today's date
