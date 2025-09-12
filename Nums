@@ -1,4 +1,4 @@
-/int num=(int, input.splice())
+//int num=(int, input.splice())
 for i in range(num):
 value = input ("Enter a value").spilt()
 print("you entered",value)
