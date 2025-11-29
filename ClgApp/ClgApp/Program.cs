@@ -11,7 +11,7 @@ namespace ClgApp
         static void Main(string[] args)
         {
             studentContext context = new studentContext();
-            / Read products - using foreach
+            Read products - using foreach
 
             foreach (Student s in context.Students)
             {
