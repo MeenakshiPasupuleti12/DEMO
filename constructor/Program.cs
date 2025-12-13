@@ -16,7 +16,7 @@ namespace constructor
             student s2 = new student(502, "mouni", "cse");
             s2.showstudent();
             student s3 = new student(503, "basava", "cse", 4000.00);
-           / s3.showstudent();
+           // s3.showstudent();
 
 
         }
