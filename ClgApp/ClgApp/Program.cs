@@ -35,7 +35,7 @@ namespace ClgApp
             e.state= Console.ReadLine();
 
             context.Students.Remove(e);
-            /context.SaveChanges();
+            //context.SaveChanges();
             Console.WriteLine("new add is created successfully");
         }
     }
