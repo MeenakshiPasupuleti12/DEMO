@@ -17,7 +17,7 @@ namespace ClgApp
             {
                 Console.WriteLine(s.Id + " " + s.Name + " " + s.Branch + " " + s.College + " " + s.City );
             }
-            /Student e = new Student();
+            Student e = new Student();
 
             Console.WriteLine("Enter Student Id:");
             e.Id= int.Parse(Console.ReadLine());
