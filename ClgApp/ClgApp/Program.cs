@@ -26,7 +26,7 @@ namespace ClgApp
             e.Name=Console.ReadLine();
 
             Console.WriteLine("Enter the College:");
-            e.Branch= Console.ReadLine();
+            /e.Branch= Console.ReadLine();
 
             Console.WriteLine("Enter the City:");
             e.City= Console.ReadLine();
